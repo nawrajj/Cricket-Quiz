@@ -1,0 +1,217 @@
+*{
+    margin:0;
+  padding:0;
+  text-decoration:none;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior:smooth;
+  
+}
+body{
+  font-family: sans-serif;
+  background-image: url('https://i.ibb.co/Rvxjp4h/20211004-121448.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 109vh;
+ scroll-behavior:smooth;
+
+
+}
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+
+marquee{
+  color:red;
+  font-family:bold;
+size:50px;
+background-color:Blue;
+background-size:60px;
+}
+nav{
+  position:fixed;
+  height: 60px;
+  width: 100%;
+  background:black;
+  box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
+  text-shadow: 0cap;
+  contain-intrinsic-block-size: 3px;
+  transition: all.3s;
+
+}
+nav ul li a:hover{
+  color:red;
+}
+nav .LOGO{
+  font-size: 59px;
+  font-weight: bold;
+  font-style:italic;
+  color: gold;
+  line-height: 50px;
+  font-family: arial;
+  border-image: round;
+}
+nav ul{
+  float: right;
+  margin-right: 50px;
+  position:sticky;
+  margin: 5px;
+  padding: auto;
+}
+nav ul li{
+  display:inline-block;
+list-style: none;
+  margin: 0 15px ;
+  line-height: 60px;
+
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li a{
+ display: block;
+  color: white;
+  font-size: 27px;
+  line-height: 35px;
+  margin-left:10%;
+  font-family:arial;
+  font-style:italic;
+  border-top:1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid black;
+  border-left:  5px solid transparent;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+
+}
+h{
+  font-size:40px;
+  color: blue;
+  font-style: italic;
+  font-weight:bold ;
+background-color:white;
+}
+a.active{
+  background-color:blue;
+  padding: 5px;
+  display: inline-block;
+}
+
+li a.contact{
+  border-bottom:1px solid rgba(0,0,0,.5) ;
+}
+nav li a.contact{
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+ #section {
+    display: flex;
+    padding:10%;
+margin-down:5px;
+    align-content: center;
+height:100%;
+width:100%;
+    
+  }
+  sectionone{
+    display: flex;
+width:100%;
+    height:500px;
+align-content:center;   
+height:100%;
+  }
+p{
+  font-weight: bold;
+  font-size:35px;
+  color:black;
+}
+h1{
+  padding: 25px 0 5px 0px;
+
+  font-size:50px;
+  font:bold;
+  font-style: italic;
+  font-family:arial;
+  margin-right: 1px;
+
+}
+l{
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+padding-left:20px;
+text-align:centre;
+
+}
+li{
+  font-size: 40px;
+  color:red;
+  font-weight: bold;
+text-align:centre;
+    }
+Form{
+font-size:42px;
+text-align:centre;
+background-color:gold;
+}
+h3{
+background-color:black;
+}
+BR{
+font-size:33px;
+}
+input{
+font-size:32px;
+box-size:32px;
+
+}
+radio button{
+font-size:32px;
+}
+h2{
+font-color:red;
+color:red;
+
+
+}
+
+search button{
+font-size:40px;
+}
+
+a{
+color:orange ;
+font-size:30px;
+font-family:arrial;
+}
+img{
+image-size:small;
+}
+
+href{
+size:30px;
+
+}
+
+h{
+background-size:50px;
+bacround-color:red;
+}
