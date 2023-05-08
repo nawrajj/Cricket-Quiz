@@ -59,9 +59,10 @@ nav{
 }
 nav ul li a:hover{
   color:red;
+  
 }
 nav .LOGO{
-  font-size: 59px;
+  font-size: 40px;
   font-weight: bold;
   font-style:italic;
   color: gold;
@@ -73,8 +74,8 @@ nav ul{
   float: right;
   margin-right: 50px;
   position:sticky;
-  margin: 5px;
-  padding: auto;
+  margin:0;
+  padding:0;
 }
 nav ul li{
   display:inline-block;
@@ -86,6 +87,8 @@ list-style: none;
 ul{
   display: flex;
   list-style: none;
+  margin:0;
+  
 }
 nav ul li a{
  display: block;
@@ -104,11 +107,11 @@ nav ul li a{
 
 }
 h{
-  font-size:55px;
+  font-size:40px;
   color: blue;
   font-style: italic;
   font-weight:bold ;
-background-color:yellow;
+background-color:white;
 }
 a.active{
   background-color:blue;
@@ -141,7 +144,7 @@ height:100%;
 p{
   font-weight: bold;
   font-size:35px;
-  color:whitesmoke;
+  color:gold;
 }
 h1{
   padding: 25px 0 5px 0px;
@@ -162,7 +165,7 @@ text-align:centre;
 
 }
 li{
-  font-size: 25px;
+  font-size: 20px;
   color:gold;
   font-weight: bold;
 text-align:centre;
@@ -202,7 +205,7 @@ font-size:30px;
 font-family:arrial;
 }
 img{
-image-size:small;
+image:small;
 }
 
 href{
@@ -210,7 +213,3 @@ size:30px;
 
 }
 
-h{
-background-size:50px;
-bacround-color:red;
-}
