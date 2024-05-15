@@ -1,252 +1,137 @@
-
-*{
-  margin:0;
-padding:0;
-text-decoration:none;
-box-sizing: border-box;
-}
-html{
-scroll-behavior:smooth;
-
-}
-body{
-font-family: sans-serif;
-background-size: cover;
-background-position: center;
-height: 109vh;
-scroll-behavior:smooth;
-
-
-}
-
-input[type=text] {
-width: 130px;
-box-sizing: border-box;
-border: 2px solid #ccc;
-border-radius: 4px;
-font-size: 16px;
-background-color: white;
-background-image: url('searchicon.png');
-background-position: 10px 10px; 
-background-repeat: no-repeat;
-padding: 12px 20px 12px 40px;
--webkit-transition: width 0.4s ease-in-out;
-transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-width: 100%;
-}
-
-
-marquee{
-color:red;
-font-family:bold;
-size:50px;
-background-color:Blue;
-background-size:60px;
-}
-nav{
-position:fixed;
-height: 60px;
-width: 100%;
-background:black;
-box-shadow: 0px 4px 10px rgba(0,0,0,.3) ;
-text-shadow: 0cap;
-contain-intrinsic-block-size: 3px;
-transition: all.3s;
-
-}
- ul a:hover{
-color:red;
-background-color: whitesmoke;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bolder;
-size:larger;
-
-}
-nav .LOGO{
-font-size: 30px;
-font-weight: bold;
-font-style:italic;
-color: gold;
-line-height: 50px;
-font-family: arial;
-border-image: round;
-}
-nav ul{
-float: right;
-margin-right: 50px;
-position:sticky;
-margin:0;
-padding:0;
-}
-nav ul li{
-display:inline-block;
-list-style: none;
-margin: 0 15px ;
-line-height: 50px;
-
-}
-ul{
-display: flex;
-list-style: none;
-margin:0;
-
-}
-nav ul li a{
-display: block;
-color: white;
-font-size: 28px;
-line-height: 55px;
-margin-left:7%;
-
-
-
-
-
-}
-h{
-font-size:40px;
-color: blue;
-font-style: italic;
-font-weight:bold ;
-background-color:white;
-}
-a.active{
-background-color:blue;
-padding: 5px;
-display: inline-block;
-}
-
-li a.contact{
-border-bottom:1px solid rgba(0,0,0,.5) ;
-}
-nav li a.contact{
-border-bottom: 1px solid rgba(255,255,255,.1);
-}
-#section {
-  display: flex;
-  padding:10%;
-margin-down:5px;
-  align-content: center;
-height:100%;
-width:100%;
-  
-}
-sectionone{
-  display: flex;
-width:100%;
-  height:500px;
-align-content:center;   
-height:100%;
-}
-p{
-
-font-size:23px;
-color:black;
-font-display:unset;
-}
-l{
-font-size: 30px;
-color:white;
-font-weight: bold;
-padding-left:20px;
-text-align:centre;
-
-}
-li{
-font-size: 20px;
-color:gold;
-font-weight: bold;
-text-align:centre;
-  }
-Form{
-font-size:42px;
-text-align:centre;
-background-color:gold;
-}
-h3{
-background-color:black;
-}
-BR{
-font-size:33px;
-}
-input{
-font-size:32px;
-box-size:32px;
-
-}
-radio button{
-font-size:32px;
-}
-h2{
-color:red;
-
-
-}
-
-search button{
-font-size:40px;
-}
-
-a{
-color:orange ;
-font-size:30px;
-font-family:arrial;
-}
-img{
-image:small;
-}
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap'); 
+body { font-family: 'Poppins', sans-serif;
+     background: #b9b3a9; 
+     display: flex;
+     width: 100%;
+      justify-content: center;
+      
+   height: 100%;
+        background-color:rgb(187, 24, 187);
+     } 
+ .quizapp{
+justify-content: center;
+height: 100%;
+  text-align: center;       
+ }    
+ h2{
+   text-align: center;
+ }
+     .container { 
+  width: 700px;
+    display: none;
+  position:relative;
+        background-color: #fff;
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          border-radius: 5px; 
+          height: 100%;
+          text-align: center;
+        } 
+        h1 {
+             text-align: center; 
+            } 
+     
+.options { margin-bottom: 30px;
+   
+position: relative;
+    }
+    .radio{
+      text-decoration: none;
+      background-color: gray;
+    }
+    .option:hover{
+      background-color: rgb(144, 232, 13);
+      color: white;
+   
+    }
+     .option
+      { 
+        display:grid;
+        margin-bottom: 10px;
+        text-decoration: none;
+        font-style: normal;
+        background-color:rgb(194, 190, 190);
+        border-radius:1mm solid ;
+       
+     } 
+     .button 
+     {
+       display: inline-block; 
+        padding: 10px 20px; 
+        background-color: #249cdc;
+         color: #fff; border: none;
+          cursor: pointer;
+           font-size: 18px; 
+           border-radius: 4px;
+            transition: background-color 0.3s; 
+           ;
+         } 
+     .button:hover { 
+        background-color: #989a9b;
+     } 
+     .result { text-align: center;
+         margin-top: 20px; 
+         font-weight: bold; } 
+     .hide{
+         display: none; 
+        }
+.btn{
+         width: fit-content;
+       height: fit-content;
+       font-family:poppins;
+       font-size: 20px;
+       font-weight: bold;
+       color: purple;
+       background-color: lime;
+       padding:5px 10px ;
+       outline: white;
+       border-radius: 1mm;
+       cursor: pointer;
+       border-color: gold;
+       
+       
+       }
 section1{
-
-  text-align: center;
- 
+text-align: center;
 }
-.fa {
-  padding: 20px;
-  font-size: 35px;
-  width: 63px;
-  text-align: center;
-  text-decoration:dashed;
-  margin: 5px 2px;
+.Cancel{
+   display: inline-block; 
+        padding: 10px 20px; 
+        background-color:red;
+         color: white; 
+         border: none;
+          cursor: pointer;
+           font-size: 18px; 
+           border-radius: 4px;
+            transition: background-color 0.1s; 
+   
 }
-.fa-facebook-square{
-  padding: 20px;
-  font-size: 30px;
-  width: 10px;
-  text-align: center;
-  text-decoration:dashed;
-  margin: 5px 2px;
+.Cancel:hover{
+   background-color: gold;
+   color: black;
 }
-.fa-facebook-square{
-
-  color: white;
-
+.scored{
+  color: purple;
+   background: rgb(0, 30, 255);
+   height: 60px;
+   text-align: center;
+   justify-content: center;
+   width: 100%;
 }
-.fa-facebook{
-  background: #3b5998;
-  color: white;
+strong{
+   color: rgb(165, 14, 14);
 }
-.fa-youtube{
-  background: #bb0000;
+st{
+   color: blue;
 }
-.fa-twitter{
-  background: #55acee;
+correct{
+   color: rgb(141, 228, 10);
 }
-.fa-instagram{
-  background:black;
-  color:(rgb(from color r g b))
+.question{
+   color: blue;
+   font-size: larger;
+   font-weight: bold; 
+   margin-bottom: 10px;
 }
-.fa-whatsapp{
-  background:green;
-}
-.fa-google{
-  background:black;
-  color: white;
+.answer{
+   color: rgb(45, 184, 45);
 }
